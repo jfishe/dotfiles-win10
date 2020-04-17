@@ -5,7 +5,8 @@ SHORT DESCRIPTION
     Tools to manage dotfiles similar Linux
 
 LONG DESCRIPTION
-    Set-DotFileHidden will set the file attribute to Hidden for file and directories beginning with dot (period).
+    Set-DotFileHidden will set the file attribute to Hidden for files beginning with a period (.*).
+
 
 EXAMPLES
 

@@ -1,4 +1,4 @@
-Function Set-Dotfile {
+Function Set-DotfileHidden {
     <#
     .SYNOPSIS
     Hide dotfiles (.*) similar to *nix shells.
