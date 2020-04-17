@@ -18,7 +18,7 @@
     CompanyName       = 'John D. Fisher'
 
     # Copyright statement for this module
-    Copyright         = '(c) 2020 jdfenw@gmail.com. All rights reserved.'
+    Copyright         = '(c) 2020 John D. Fisher MIT License'
 
     # Description of the functionality provided by this module
     Description       = 'Manage dotfiles on Windows 10'
@@ -31,17 +31,16 @@
             Prerelease   = ''
 
             # Release Notes have to be here, so ModuleBuilder can update them
-            ReleaseNotes = '
-            '
+            ReleaseNotes = 'Add cmdlet Set-DotFileHidden'
 
             # Tags applied to this module in online galleries.
             Tags = @()
 
             # A URL to the license for this module.
-            # LicenseUri = ''
+            LicenseUri = 'https://github.com/jfishe/dotfiles-win10/blob/master/LICENSE'
 
             # A URL to the main website for this project.
-            # ProjectUri = ''
+            ProjectUri = 'https://github.com/jfishe/dotfiles-win10'
 
             # A URL to an icon representing this module.
             # IconUri = ''
