@@ -1,4 +1,4 @@
-Function Set-DotfileHidden {
+Function Set-DotFileHidden {
     <#
     .SYNOPSIS
     Hide dotfiles (.*) similar to *nix shells.
@@ -14,7 +14,7 @@ Function Set-DotfileHidden {
     Recurse through sub-directories.
 
     .PARAMETER Force
-    The name of a file to write failed computer names to. Defaults to errors.txt.
+    Force inclusion of files via Get-Item -Force.
       #>
     [CmdletBinding(SupportsShouldProcess, ConfirmImpact='Medium')]
 
